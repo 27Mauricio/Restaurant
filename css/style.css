@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: #2F3035;
+    background-color: #cbcfe5;
+    color: rgb(0, 0, 0);
 }
 
 .container {
@@ -9,7 +14,6 @@ body {
 }
 
 header {
-    background-color: rgb(87, 14, 14);
     height: 118px;
     text-align: center;
 }
@@ -20,29 +24,50 @@ header img {
 }
 
 nav {
-    background-color: rgb(64, 130, 133);
-    height: 40px;
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
-nav p {
-    font-family: 'Permanent Marker', cursive;
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
+
+nav a:hover {
+    color: white;
+}
+
 
 main {
-    background-color: antiquewhite;
     height: 400px;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-family: 'Tillana', cursive;
 }
 
-main p {
-    font-family: 'Tillana', cursive;
+main a {
+    color: rgb(0, 0, 0);   
+    text-decoration: none; 
+}
+
+main a:hover {
+    color: white;
 }
 
 footer {
     background-color: rgb(20, 40, 78);
     height: 100px;
-}
-
-footer p { 
     font-family: 'Indie Flower', cursive;
 }
 
+h1 {
+    font-size: 25px;
+}
