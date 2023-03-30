@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #cbcfe5;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .container {
@@ -36,10 +36,11 @@ nav a {
     font-size: 16px;
     padding-left: 45px;
     padding-right: 45px;
+    color: white;
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 
@@ -59,13 +60,30 @@ main a {
 }
 
 main a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
+}
+
+.map {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-left: 40px;
 }
 
 footer {
-    background-color: rgb(20, 40, 78);
+    background-color: rgba(0, 0, 0);
     height: 100px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Tillana', cursive;
+}
+
+footer p {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
 }
 
 h1 {
